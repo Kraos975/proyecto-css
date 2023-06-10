@@ -1,0 +1,38 @@
+.contenedor{
+    display: flex;/* ayuda a centrar o poner donde quieras */
+    justify-content: center;
+}
+
+table{
+    border-collapse: collapse;
+    border: 2ps solid black;
+    letter-spacing: 1px; /* le da espacios a las palabras */
+    font-size: 1.5rem;
+    background-color: rgb(224, 224, 224);
+    color: rgb(70, 69, 69);
+    margin: 5px;
+}
+
+th{
+    text-align: left;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px; /* agranda de adentro  hacia afuera*/
+    background-color: rgb(151, 149, 149);
+    
+}
+
+td{
+    border: 1px solid gray;
+    padding: 10px;
+    cursor: pointer;
+}
+
+h2{
+    padding: 20px;
+    margin: 0;
+}
+
+tr:hover{
+    background-color: rgb(192, 191, 191);
+    /* color: rgb(226, 224, 224); */
+}

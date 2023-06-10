@@ -1,0 +1,83 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient(to left,rgb(214, 180, 174),rgb(241, 234, 232));
+    padding: 0;
+    margin: 0;
+    padding-bottom: 80px;
+}
+
+
+header{
+    text-align: center;
+}
+
+.active{
+    background-color: rgb(247, 201, 208);
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightslategrey;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+
+li a:hover:not(.active){
+    background-color: rgb(216, 179, 185);
+}
+
+h1{
+    background-color: rgb(143, 141, 141);
+    padding: 30px;
+    margin: 0;
+    color: rgb(82, 82, 85);
+}
+
+footer{
+    background-color: rgb(48, 47, 47);
+    color:lightgrey;
+    padding: 1.4rem;
+    padding-right: 50px;
+    text-align: left;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer section{
+    float: right;
+    padding-right: inherit;
+}
+
+footer p{
+    margin: 0;
+    display: inline;
+}
+
+footer a{
+    text-align: left;
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    letter-spacing: 5px;
+    transition: color 0.3s ease;
+    /* margin: 5px; */
+}
+
+footer a:hover{
+    color: rgb(143, 141, 141);
+}
+
